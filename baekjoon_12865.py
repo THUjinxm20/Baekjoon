@@ -1,3 +1,5 @@
+#knapsack algorithm
+
 
 N, K = map(int, input().split())
 knapsack = [[0] * (K+1) for i in range(N+1)]
